@@ -533,8 +533,10 @@ aside span {
     }
 
     .tab {
+        min-width: calc((100% / 4) - 20px);
+        /* min-width: 80px; */
+        /* min-width: 90px; */
         min-height: 51px;
-        min-width: 90px;
         font-size: 18px;
         padding: 0px 10px;
     }
