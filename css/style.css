@@ -403,8 +403,6 @@ aside span {
     header {
         display: block;
         top: 1.2%;
-        /* left: 60%; */
-        /* transform: translateX(-50%); */
         width: 100%;
         text-align: center;
         padding-left: 0;
@@ -419,18 +417,10 @@ aside span {
         width: 100%;
         max-width: 100% !important;
     }
-    /* 설명 이미지 1 모바일 이미지 */
-    .info-img.info-img-01 img {
-        content: url("../images/mobile_bg/BSM_홈페이지_모바일01_2025060501.png");
-    }
 
     /* 설명 이미지 2 모바일 이미지 */
     .info-img.info-img-02 {
         aspect-ratio: unset;
-    }
-
-    .info-img-02 img.info-img-02_bg {
-        content: url("../images/mobile_bg/BSM_홈페이지_모바일02_2025060502.png");
     }
 
     .float-img-wrap {
@@ -444,20 +434,17 @@ aside span {
     }
 
     .float-img-wrap .float-img-left {
-        /* width: 100%; */
         z-index: 99;
         display: block;
         text-align: center;
     }
 
     .float-img-wrap .float-img-left img {
-        /* max-width: 570px; */
         max-width: clamp(150px, 49.13vw, 600px);
         max-height: auto;
     }
 
     .float-img-wrap .float-img-right {
-        content: url("../images/mobile_bg/BSM_홈페이지_모바일_애니메이션_2025060501.webp");
         top: 7%;
         width: 100%;
     }
@@ -465,18 +452,6 @@ aside span {
     /* 설명 이미지 3 - 탭 포함  */
     .info-img-03 {
         margin-top: 0px;
-    }
-    .info-img-03 .info-img-03_01 > img {
-        content: url("../images/mobile_bg/BSM_홈페이지_모바일03_01_2025062701.png");
-    }
-    .info-img-03 .info-img-03_02 > img {
-        content: url("../images/mobile_bg/BSM_홈페이지_모바일03_02_2025062702.png");
-    }
-    .info-img-03 .info-img-03_03 > img {
-        content: url("../images/mobile_bg/BSM_홈페이지_모바일03_03_2025062701.png");
-    }
-    .info-img-03 .info-img-03_04 > img {
-        content: url("../images/mobile_bg/BSM_홈페이지_모바일03_04_2025062701.png");
     }
 
     .info-img-03_right {
@@ -487,9 +462,6 @@ aside span {
     /* 설명 이미지 4 모바일 이미지 */
     .info-img-04 {
         position: relative;
-    }
-    .info-img-04 > img {
-        content: url("../images/mobile_bg/BSM_홈페이지_모바일04_2025060501.png");
     }
 
     .info-img-04_left {
@@ -506,22 +478,11 @@ aside span {
         max-height: 100%;
     }
 
-    /* 설명 이미지 5 모바일 이미지  */
-    .info-img-05 img {
-        content: url("../images/mobile_bg/BSM_홈페이지_모바일05_2025060501.png");
-    }
-
-    /* 설명 이미지 6 모바일 이미지  */
-    .info-img-06 > img {
-        content: url("../images/mobile_bg/BSM_홈페이지_모바일06_2025060501.png");
-    }
-
     .info-img-06_left {
         position: absolute;
         top: 43%;
         left: 50%;
         transform: translate(-50%, -50%);
-        /* width: 100%; */
         width: 75%;
         max-width: 865px;
         max-height: 967px;
@@ -539,7 +500,6 @@ aside span {
 
 
     .footer-logo {
-        /* max-width: clamp(150px, 23vw, 200px); */
         max-width: 150px;
         margin-bottom: 30px;
     }
