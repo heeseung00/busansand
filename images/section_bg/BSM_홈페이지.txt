@@ -1,0 +1,27 @@
+● 아이콘 박스
+
+- fill: FFFFFF 60%
+- stroke: FFFFFF 100%
+- effects: background blur 50
+
+- text: Pretendard Variable, SemiBold 14, 5B5B5B 100%
+
+
+● 종류 선택
+
+- 기본 텍스트: Pretendard Variable, Medium 24, 848484 100%
+- 선택 텍스트: Pretendard Variable, Bold 24, E8394B 100%
+
+- stroke: C4C4C4 100%, 두께: 1 
+- 선택 stroke: E8394B 100%, 두께: 2
+
+
+● 푸터
+
+- 부산샌드 텍스트: Pretendard Variable, Bold 20, 5B5B5B 100%
+- 내용 텍스트: Pretendard Variable, Medium 16, 5B5B5B 100%
+- 카피라이터 텍스트: Pretendard Variable, Light 16, 5B5B5B 100%
+
+- 상단 stroke: CCCCCC 100%, 두께: 1 
+- 내용 stroke: 5B5B5B 100%, 두께: 1 
+
